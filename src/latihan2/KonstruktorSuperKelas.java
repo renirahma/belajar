@@ -3,22 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package latihanmodul2;
+package latihan2;
 
 /**
  *
  * @author client
  */
-public class PertamaKedua {
+public class KonstruktorSuperKelas {
     public static void main (String[] args)
     {
-        Kedua D2 = new Kedua ();
-        D2.BacaSuper();
-        D2.info();
-        
-        pertama S1 = new pertama ();
-        S1.terprotek();
-        S1.info();
+        Employe programer1 = new Employe ("12345678", "Reni", 34);
+        programer1.info();
     }
     
 }

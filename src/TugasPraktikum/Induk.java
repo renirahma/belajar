@@ -3,17 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package latihanmodul2_2;
+package TugasPraktikum;
 
 /**
  *
  * @author client
  */
-public class KonstruktorSuperKelas {
-    public static void main (String[] args)
-    {
-        Employe programer1 = new Employe ("12345678", "Reni", 34);
-        programer1.info();
+public class Induk {
+    public void test(){
+        System.out.println("Method di kelas induk");
     }
     
 }
